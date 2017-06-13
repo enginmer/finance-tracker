@@ -12,18 +12,22 @@ end
 gem 'rails', '~> 5.1.1'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
+# Use devise as the Rails authentication solution
+gem 'devise'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Required for use with Bootstrap 4.x
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'jquery-rails'
 # Use SCSS for stylesheets
-gem 'bootstrap', '~> 4.0.0.alpha6'
+#gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'sass-rails', '~> 5.0'
 # Use Tether for tooltips and popovers with Bootstrap 4.x
-source 'https://rails-assets.org' do
-  gem 'rails-assets-tether', '>= 1.3.3'
-end
+#source 'https://rails-assets.org' do
+#  gem 'rails-assets-tether', '>= 1.3.3'
+#end
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
