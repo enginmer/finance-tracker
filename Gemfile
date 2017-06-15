@@ -16,11 +16,14 @@ gem 'rails', '~> 5.1.1'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+# Use stock_quote to get regular stock ticker updates
+gem 'stock_quote'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Required for use with Bootstrap 4.x
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'jquery-rails'
+gem 'font-awesome-rails'
 # Use SCSS for stylesheets
 #gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'sass-rails', '~> 5.0'
